@@ -26,7 +26,7 @@ reddit = praw.Reddit(
 
 # === Config ===
 SUBREDDIT_NAME = 'ufos'
-WIKI_PAGE = 'toolbox'
+WIKI_PAGE = 'usernotes'
 
 # === Functions ===
 
