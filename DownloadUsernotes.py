@@ -10,7 +10,7 @@ from prawcore.exceptions import Forbidden, TooManyRequests
 # Set up logging
 logging.basicConfig(
     filename='error_log.txt',
-    level=logging.INFO,
+    level=logging.ERROR,
     format='%(asctime)s %(levelname)s: %(message)s'
 )
 logger = logging.getLogger()
