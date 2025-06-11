@@ -59,7 +59,7 @@ def compress_blob(json_str):
 
 def update_wiki(subreddit, new_content):
     try:
-        subreddit.wiki[WIKI_PAGE].edit(new_content, reason="Updated via script")
+        subreddit.wiki[WIKI_PAGE].edit(content=new_content, reason="Updated via script")
         print(f"Successfully updated r/{SUBREDDIT_NAME}/wiki/{WIKI_PAGE}")
     except Exception as e:
         logger.error(f"Failed to update wiki page: {e}")
