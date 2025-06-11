@@ -10,7 +10,7 @@ from prawcore.exceptions import Forbidden, TooManyRequests
 # === Logging ===
 logging.basicConfig(
     filename='error_log.txt',
-    level=logging.INFO,
+    level=logging.ERROR,
     format='%(asctime)s %(levelname)s: %(message)s'
 )
 logger = logging.getLogger()
@@ -26,7 +26,7 @@ reddit = praw.Reddit(
 
 # === Config ===
 SUBREDDIT_NAME = 'ufos'
-WIKI_PAGE = 'usernotes'
+WIKI_PAGE = 'toolbox'
 
 # === Functions ===
 
