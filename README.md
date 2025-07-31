@@ -3,6 +3,7 @@
 ### This is a script designed to download, decrypt, and decompress Toolbox Modnotes
 - DownloadUsernotes.py downloads and decompresses the Toolbox Modnotes into a json text file.
 - UploadUsernotes.py takes a backup then recompresses and uploads the edited ModNotes to the Toolbox wiki page.
+- Toolbox Usernotes location: https://old.reddit.com/r/[yoursubreddit]/wiki/usernotes - ex: https://old.reddit.com/r/ufos/wiki/usernotes
 
 # Setup
 
